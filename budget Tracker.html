@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<title>BUDGET TRACKER</title>
+<body>
+    <center><h1>Personal Budget Tracker</h1>
+    <br><br>
+    <hr>
+    <br>
+    <a href="#income/expense">ENTER INCOME / EXPENSE</a>
+    <br><br><br>
+    <a href="#one">YOUR BUDGET SUMMARY</a>
+    <h1>Welcome to the Personal Budget Tracker</h1>
+    <p>A personal budget tracker application helps users manage their finances by tracking income, expenses, and savings. It typically provides features like categorizing transactions, setting monthly budgets, generating financial reports, and visualizing spending patterns through charts and graphs. Users can manually input expenses or link their bank accounts for automatic tracking. The application may also include alerts for overspending, bill reminders, and goal-setting tools to encourage better financial planning. With a user-friendly interface, data security measures, and cross-platform accessibility, a budget tracker simplifies financial management, helping users make informed decisions and achieve their financial goals efficiently.</p>
+    <p>A well-designed personal budget tracker application enhances financial awareness by offering real-time insights into spending habits. It allows users to set financial goals, such as saving for a vacation or paying off debt, and monitors progress with detailed analytics. Some applications integrate AI-driven suggestions to optimize expenses and improve savings. Additionally, cloud synchronization ensures data accessibility across multiple devices, making financial tracking seamless. Customizable reports, export options, and interactive dashboards further empower users to stay in control of their finances. By promoting disciplined spending and smart money management, a budget tracker becomes an essential tool for financial stability.</p>
+    <div id="income/expense">
+    <h1>Add New Income or Expense</h1>
+    <form>
+        <label>Amount:</label><input  type="text" placeholder="Enter a Amount">
+        <br>
+        <br>
+        <label>Category:</label>
+            <select>
+            <option >Food</option>
+            <option >Transportation</option>
+            <option >Entertainment</option>
+            </select>
+        <br>
+        <br>
+        <label>Description:</label>
+        <input type="text" placeholder="Enter a Description"></input>
+        <br>
+        <br>
+        <label>Date:</label>
+        <input type="date" ></input>
+        <br>
+        <br>
+        <label>Type:</label>
+        <input type="radio">Income</input><input type="radio">Expense</input>
+        <br>
+        <br>
+        <button>Add Entry</button>
+        </form>
+        <br>
+        <br></div>
+        <section id="one">
+        <h1>Budget Summary</h1>
+        <br>
+        <table border="1" >
+            <tr>
+                <th>Category</th>
+                <th colspan="2">Transaction Details</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Amount</th>
+                <th>Description</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Food</td>
+                <td>$200</td>
+                <td>Groceries for the week</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Transportation</td>
+                <td>$100</td>
+                <td>Monthly bus pass</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Entertainment</td>
+                <td>$50</td>
+                <td>Cinema tickets</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Salary</td>
+                <td>$3000</td>
+                <td>Monthly salary payment</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Savings</td>
+                <td>$500</td>
+                <td>Emergency fund deposit</td>
+                <td>Pending</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Utilities</td><br>
+                <td>$150</td>
+                <td>Electricity bill</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+                <tr>
+                </tr>
+                <td>Utilities</td>
+                <td>$50</td>
+                <td>Water bill</td>
+                <td>Pending</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Housing</td>
+                <td>$1200</td>
+                <td>Monthly rent</td>
+                <td>Completed</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Housing</td>
+                <td>$300</td>
+                <td>Maintenance fee</td>
+                <td>Pending</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        </table>
+        </section>
+    </center>
+    <br>
+    <hr>
+</body>
+</html>
